@@ -15,59 +15,62 @@
     <title>Results summary component</title>
   </head>
   <body>
-    <article class="result">
-      <div class="result-info">
-        <h2 class="result-info-title">Your Result</h2>
-        <div class="result-info__scale">
-          <p class="result-info__scale--score">76</p>
-          <p class="result-info__scale--out-of">of 100</p>
+    <main>
+      <article class="result">
+        <div class="result-info">
+          <h2 class="result-info-title">Your Result</h2>
+          <div class="result-info__scale">
+            <p class="result-info__scale--score">76</p>
+            <p class="result-info__scale--out-of">of 100</p>
+          </div>
+          <p class="result-info__grade">Great</p>
+          <p class="result-info__description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
         </div>
-        <p class="result-info__grade">Great</p>
-        <p class="result-info__description">
-          You scored higher than 65% of the people who have taken these tests.
-        </p>
-      </div>
-
-      <div class="result-summary">
-        <h3 class="result-summary__title">Summary</h3>
-        <div class="result-summary__items">
-          <div class="result-summary__item result-summary__item--reaction">
-            <div>
-              <img src="assets/images/icon-reaction.svg" alt="" />
-              <p class="result-summary__item--title">Reaction</p>
+  
+        <div class="result-summary">
+          <h3 class="result-summary__title">Summary</h3>
+          <div class="result-summary__items">
+            <div class="result-summary__item result-summary__item--reaction">
+              <div>
+                <img src="assets/images/icon-reaction.svg" alt="" />
+                <p class="result-summary__item--title">Reaction</p>
+              </div>
+              <p class="result-summary__item--score">80 <span class="text-black-opacity-30">/ 100</span></p>
             </div>
-            <p class="result-summary__item--score">80 <span class="text-black-opacity-30">/ 100</span></p>
-          </div>
-          <div class="result-summary__item result-summary__item--memory">
-            <div>
-              <img src="assets/images/icon-memory.svg" alt="" />
-
-              <p class="result-summary__item--title">Memory</p>
+            <div class="result-summary__item result-summary__item--memory">
+              <div>
+                <img src="assets/images/icon-memory.svg" alt="" />
+  
+                <p class="result-summary__item--title">Memory</p>
+              </div>
+              <p class="result-summary__item--score">
+                92 <span class="text-black-opacity-30">/ 100</span>
+              </p>
             </div>
-            <p class="result-summary__item--score">
-              92 <span class="text-black-opacity-30">/ 100</span>
-            </p>
-          </div>
-          <div class="result-summary__item result-summary__item--verbal">
-            <div>
-              <img src="assets/images/icon-verbal.svg" alt="" />
-
-              <p class="result-summary__item--title">Verbal</p>
+            <div class="result-summary__item result-summary__item--verbal">
+              <div>
+                <img src="assets/images/icon-verbal.svg" alt="" />
+  
+                <p class="result-summary__item--title">Verbal</p>
+              </div>
+              <p class="result-summary__item--score">61 <span class="text-black-opacity-30">/ 100</span></p>
             </div>
-            <p class="result-summary__item--score">61 <span class="text-black-opacity-30">/ 100</span></p>
-          </div>
-          <div class="result-summary__item result-summary__item--visual">
-            <div>
-              <img src="assets/images/icon-visual.svg" alt="" />
-
-              <p class="result-summary__item--title">Visual</p>
+            <div class="result-summary__item result-summary__item--visual">
+              <div>
+                <img src="assets/images/icon-visual.svg" alt="" />
+  
+                <p class="result-summary__item--title">Visual</p>
+              </div>
+              <p class="result-summary__item--score">72 <span class="text-black-opacity-30">/ 100</span></p>
             </div>
-            <p class="result-summary__item--score">72 <span class="text-black-opacity-30">/ 100</span></p>
           </div>
+  
+          <button class="result-summary__button btn-primary">Continue</button>
         </div>
-
-        <button class="result-summary__button btn-primary">Continue</button>
-      </div>
-    </article>
+      </article>
+    </main>
+    
   </body>
 </html>
