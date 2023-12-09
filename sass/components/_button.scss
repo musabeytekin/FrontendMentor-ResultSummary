@@ -1,0 +1,19 @@
+%btn {
+  display: block;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  @extend %btn;
+  background-color: $dark-gray-blue;
+  border-radius: 1.4em;
+  color: $white;
+  transition: background-image 0.6s ease;
+
+  &:hover {
+    background-color: unset;
+    background-image: linear-gradient(to bottom, $light-slate-blue, $light-royal-blue);
+  }
+}
